@@ -2,7 +2,7 @@
 
 client_id = "3529edd426a205d40a88eca02199ad96"
 name = "discount-and-shipping-rework"
-application_url = "https://generart.fit:3000"
+application_url = "https://discount.generart.fit:3000"
 embedded = true
 
 [build]
@@ -16,4 +16,4 @@ api_version = "2026-01"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://discount.generart.fit/api/auth" ]
+redirect_urls = [ "https://discount.generart.fit:3000/api/auth" ]
